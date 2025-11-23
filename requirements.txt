@@ -1,5 +1,6 @@
-scikit-learn
-pandas
-numpy
-dvc
-mlflow
+# Совместимо с MLflow 3.6+ (filesystem backend deprecated, sqlite required)
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==2.3.5
+dvc==3.64.0
+mlflow==3.6.0
