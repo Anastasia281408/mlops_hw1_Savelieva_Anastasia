@@ -1,0 +1,8 @@
+prepare:
+  split_ratio: 0.8
+  random_state: 42
+
+train:
+  model_type: "LogisticRegression"
+  C: 1.0
+  random_state: 42
